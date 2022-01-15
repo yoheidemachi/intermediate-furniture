@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+.wrapper {
+  max-width: 136rem;
+  padding: 0 4rem;
+  margin: 0 auto; }
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #000; }
+
+ul {
+  list-style-type: none; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Noto Sans JP", sans-serif; }
+
+.menu-nav {
+  font-size: 3rem; }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0; }
+  .header-container h1 {
+    font-size: 20px; }
+
+.products-header {
+  margin-bottom: 5rem; }
+
+.products-heading {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 3rem; }
+
+.page-container {
+  display: flex;
+  justify-content: center; }
+  .page-container .pagination {
+    display: flex;
+    gap: 2rem; }
+    .page-container .pagination a {
+      font-size: 1.2rem; }
+
+#top {
+  margin-bottom: 4rem; }
+  #top .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+    margin-bottom: 4rem; }
+    #top .grid-container .grid-item > img {
+      object-fit: cover;
+      width: 100%; }
+    #top .grid-container .grid-item h3 {
+      font-weight: 400; }
+  #top .view-more {
+    text-align: center; }
+    #top .view-more a {
+      font-size: 1.2rem; }
+
+#footer {
+  margin-bottom: 2rem; }
+  #footer .footer-container {
+    display: flex;
+    justify-content: space-between; }
+  #footer .social-link-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; }
+
+.item-header {
+  margin-bottom: 5rem; }
+
+.wrapper-item h2 {
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 1.6rem; }
+
+.wrapper-item img {
+  float: left;
+  width: 30rem; }
+
+.item-detail-container {
+  float: left;
+  width: 30rem;
+  margin-left: 6.8rem;
+  margin-bottom: 10rem;
+  font-size: 1.2rem; }
+  .item-detail-container .margin-p-small {
+    margin-bottom: 2rem; }
+  .item-detail-container .margin-p-medium {
+    margin-bottom: 2.8rem; }
+  .item-detail-container .item-spec {
+    display: flex;
+    flex-wrap: wrap; }
+    .item-detail-container .item-spec dl {
+      width: 40%; }
+    .item-detail-container .item-spec dt {
+      width: 50%; }
+
+.cls {
+  clear: both; }
+
+.back-to-products {
+  text-align: center;
+  margin-bottom: 6.4rem; }
+  .back-to-products a {
+    font-size: 1.2rem; }

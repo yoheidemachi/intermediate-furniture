@@ -1,0 +1,61 @@
+/////////////
+// HEADER
+/////////////
+
+.item-header {
+  margin-bottom: 5rem;
+}
+
+/////////////
+// ITEM CONTENT
+/////////////
+
+.wrapper-item {
+  h2 {
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+  }
+  img {
+    float: left;
+    width: 30rem;
+  }
+}
+
+.item-detail-container {
+  float: left;
+  width: 30rem;
+  margin-left: 6.8rem;
+  margin-bottom: 10rem;
+  font-size: 1.2rem;
+  .margin-p {
+    &-small {
+      margin-bottom: 2rem;
+    }
+    &-medium {
+      margin-bottom: 2.8rem;
+    }
+  }
+  .item-spec {
+    display: flex;
+    flex-wrap: wrap;
+    dl {
+      width: 40%;
+    }
+    dt {
+      width: 50%;
+    }
+  }
+}
+
+.cls {
+  clear: both;
+}
+
+.back-to-products {
+  text-align: center;
+  margin-bottom: 6.4rem;
+  a {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,21 @@
+.products-header {
+  margin-bottom: 5rem;
+}
+
+.products-heading {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  .pagination {
+    display: flex;
+    gap: 2rem;
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}

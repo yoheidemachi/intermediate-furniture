@@ -1,0 +1,25 @@
+#top {
+  margin-bottom: 4rem;
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3rem;
+    margin-bottom: 4rem;
+
+    .grid-item {
+      & > img {
+        object-fit: cover;
+        width: 100%;
+      }
+      h3 {
+        font-weight: 400;
+      }
+    }
+  }
+  .view-more {
+    text-align: center;
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}

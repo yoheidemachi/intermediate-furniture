@@ -1,0 +1,12 @@
+#footer {
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .social-link-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  margin-bottom: 2rem;
+}
