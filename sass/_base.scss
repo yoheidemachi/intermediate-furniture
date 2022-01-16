@@ -1,3 +1,6 @@
+$default-font-size: 1.6rem;
+$default-font-color: #333;
+
 *,
 *::after,
 *::before {
@@ -10,6 +13,10 @@ html {
   font-size: 62.5%; // 1rem = 10px
 }
 
+body {
+  color: $default-font-color;
+}
+
 .wrapper {
   max-width: 136rem;
   padding: 0 4rem;
@@ -19,7 +26,7 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: #000;
+  color: $default-font-color;
 }
 
 ul {

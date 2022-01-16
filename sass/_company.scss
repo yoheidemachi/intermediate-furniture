@@ -1,0 +1,39 @@
+#company {
+  .wrapper-company {
+    width: 600px;
+    h2 {
+      font-weight: 400;
+      margin-bottom: 3.2rem;
+    }
+
+    .google-map {
+      margin-bottom: 30px;
+      iframe {
+        width: 100%;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+      }
+    }
+    dl {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 1.2rem;
+      margin-bottom: 4rem;
+    }
+    dt {
+      width: 40%;
+      font-size: 1.4rem;
+      padding: 1rem 0 1rem;
+      border-bottom: 1px solid #bbb;
+    }
+    dd {
+      width: 60%;
+      font-size: 1.4rem;
+      padding: 1rem 0 1rem;
+      border-bottom: 1px solid #bbb;
+    }
+    .border-none {
+      border-bottom: none;
+    }
+  }
+}

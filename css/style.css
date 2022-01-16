@@ -8,6 +8,9 @@
 html {
   font-size: 62.5%; }
 
+body {
+  color: #333; }
+
 .wrapper {
   max-width: 136rem;
   padding: 0 4rem;
@@ -17,7 +20,7 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: #000; }
+  color: #333; }
 
 ul {
   list-style-type: none; }
@@ -120,3 +123,44 @@ body {
   margin-bottom: 6.4rem; }
   .back-to-products a {
     font-size: 1.2rem; }
+
+#about .wrapper-about {
+  width: 50rem;
+  margin-bottom: 8rem; }
+
+#about .wrapper h2 {
+  font-weight: 400;
+  margin-bottom: 3.2rem; }
+
+#about .wrapper p {
+  font-size: 1.4rem;
+  margin-bottom: 2.2rem; }
+
+#company .wrapper-company {
+  width: 600px; }
+  #company .wrapper-company h2 {
+    font-weight: 400;
+    margin-bottom: 3.2rem; }
+  #company .wrapper-company .google-map {
+    margin-bottom: 30px; }
+    #company .wrapper-company .google-map iframe {
+      width: 100%;
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%); }
+  #company .wrapper-company dl {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1.2rem;
+    margin-bottom: 4rem; }
+  #company .wrapper-company dt {
+    width: 40%;
+    font-size: 1.4rem;
+    padding: 1rem 0 1rem;
+    border-bottom: 1px solid #bbb; }
+  #company .wrapper-company dd {
+    width: 60%;
+    font-size: 1.4rem;
+    padding: 1rem 0 1rem;
+    border-bottom: 1px solid #bbb; }
+  #company .wrapper-company .border-none {
+    border-bottom: none; }
