@@ -1,5 +1,21 @@
 #top {
   margin-bottom: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  .header-container {
+    span {
+      position: relative;
+      height: 1rem;
+      &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1rem;
+        height: 1rem;
+        background-color: #333;
+      }
+    }
+  }
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -7,7 +23,7 @@
     margin-bottom: 4rem;
 
     .grid-item {
-      & > img {
+      img {
         object-fit: cover;
         width: 100%;
       }
@@ -20,6 +36,24 @@
     text-align: center;
     a {
       font-size: 1.2rem;
+    }
+  }
+  @media (max-width: 900px) {
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .price {
+      font-size: 16px;
+    }
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .view-more {
+      a {
+        font-size: 18px;
+      }
+      margin-bottom: 50px;
     }
   }
 }

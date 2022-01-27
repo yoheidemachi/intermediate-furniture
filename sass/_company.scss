@@ -1,4 +1,6 @@
 #company {
+  padding-top: 8rem;
+  padding-bottom: 16rem;
   .wrapper-company {
     width: 600px;
     h2 {
@@ -7,8 +9,8 @@
     }
 
     .google-map {
-      margin-bottom: 30px;
       iframe {
+        height: 40rem;
         width: 100%;
         filter: grayscale(100%);
         -webkit-filter: grayscale(100%);
@@ -23,14 +25,14 @@
     dt {
       width: 40%;
       font-size: 1.4rem;
-      padding: 1rem 0 1rem;
-      border-bottom: 1px solid #bbb;
+      padding: 1.8rem 0;
+      border-bottom: 1px solid #ddd;
     }
     dd {
       width: 60%;
       font-size: 1.4rem;
-      padding: 1rem 0 1rem;
-      border-bottom: 1px solid #bbb;
+      padding: 1.8rem 0;
+      border-bottom: 1px solid #ddd;
     }
     .border-none {
       border-bottom: none;

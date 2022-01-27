@@ -1,12 +1,36 @@
 #footer {
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-  }
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
   .social-link-list {
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    li {
+      a {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  p {
+    font-size: 1rem;
   }
   margin-bottom: 2rem;
+  @media (max-width: 900px) {
+    display: block;
+    .social-link-list {
+      li {
+        a {
+          font-size: 16px;
+        }
+      }
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
 }
