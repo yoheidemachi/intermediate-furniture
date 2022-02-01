@@ -1,6 +1,10 @@
 /////////////
 // HEADER
 /////////////
+#item-detail {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
 
 .item-header {
   margin-bottom: 5rem;
@@ -39,10 +43,10 @@
   .item-spec {
     display: flex;
     flex-wrap: wrap;
-    dl {
+    dt {
       width: 40%;
     }
-    dt {
+    dd {
       width: 50%;
     }
   }
@@ -56,6 +60,39 @@
   text-align: center;
   margin-bottom: 6.4rem;
   a {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 900px) {
+  #item-detail {
+    padding-bottom: 8rem;
+  }
+  .wrapper-item {
+    h2 {
+      font-weight: 400;
+      margin-bottom: 30px;
+      font-size: 1.6rem;
+    }
+    img {
+      float: none;
+      width: 100%;
+    }
+  }
+  .item-detail-container {
+    float: none;
+    margin-top: 4rem;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 6rem;
+    font-size: 1.6rem;
+    .item-spec {
+      dt {
+        width: 40%;
+      }
+      dd {
+        width: 60%;
+      }
+    }
   }
 }
