@@ -38,4 +38,25 @@
       border-bottom: none;
     }
   }
+  @media (max-width: 900px) {
+    .wrapper-company {
+      width: 100%;
+      h2 {
+        font-size: 1.8rem;
+        font-weight: 400;
+      }
+      dt {
+        width: 100%;
+        font-size: 1.6rem;
+        padding: 1.8rem 0 0;
+        border-bottom: none;
+      }
+      dd {
+        width: 100%;
+        font-size: 1.6rem;
+        padding: 0.8rem 0 1.8rem;
+        border-bottom: 1px solid #ddd;
+      }
+    }
+  }
 }

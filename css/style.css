@@ -363,6 +363,17 @@ body {
   #about .wrapper p {
     font-size: 1.4rem;
     margin-bottom: 2.2rem; }
+  @media (max-width: 900px) {
+    #about .wrapper-about {
+      width: 100%;
+      margin-bottom: 8rem; }
+    #about .wrapper h2 {
+      font-size: 1.8rem;
+      font-weight: 400;
+      margin-bottom: 3.2rem; }
+    #about .wrapper p {
+      font-size: 1.6rem;
+      margin-bottom: 2.2rem; } }
 
 #company {
   padding-top: 8rem;
@@ -394,3 +405,19 @@ body {
       border-bottom: 1px solid #ddd; }
     #company .wrapper-company .border-none {
       border-bottom: none; }
+  @media (max-width: 900px) {
+    #company .wrapper-company {
+      width: 100%; }
+      #company .wrapper-company h2 {
+        font-size: 1.8rem;
+        font-weight: 400; }
+      #company .wrapper-company dt {
+        width: 100%;
+        font-size: 1.6rem;
+        padding: 1.8rem 0 0;
+        border-bottom: none; }
+      #company .wrapper-company dd {
+        width: 100%;
+        font-size: 1.6rem;
+        padding: 0.8rem 0 1.8rem;
+        border-bottom: 1px solid #ddd; } }
